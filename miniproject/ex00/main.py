@@ -3,7 +3,7 @@ from datetime import datetime
 farm_tasks = []
 
 def show_menu():
-    print("\n--- farm16 9วิธีปลูกทุเรียนให้รอด ---")
+    print("\n--- farmทุเรียน ---")
     print("1. เพิ่มงานในฟาร์ม")
     print("2. แสดงรายการงานทั้งหมด")
     print("3. ลบงาน")
