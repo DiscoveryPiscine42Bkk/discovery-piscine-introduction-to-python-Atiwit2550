@@ -45,9 +45,9 @@ def add_task():
         return
 
     print("เลือกประเภทงาน:")
-    print("1. 9 วิธีปลูกทุเรียนให้รอด")
+    print("1.  วิธีปลูกทุเรียนให้รอด")
     category_choice = input("เลือก (1): ")
-    category = "9 วิธีปลูกทุเรียนให้รอด" if category_choice == "1" else "ไม่ใช่วิธีปลูกทุเรียน"
+    category = " วิธีปลูกทุเรียนให้รอด" if category_choice == "1" else "ไม่ใช่วิธีปลูกทุเรียน"
 
     date_created = datetime.now().strftime("%Y-%m-%d")
 
