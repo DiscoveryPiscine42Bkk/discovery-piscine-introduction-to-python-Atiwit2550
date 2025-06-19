@@ -20,7 +20,7 @@ def add_task():
     print("6. หลินลับแล")
     print("7.  พวงมณี ")
   
-    job_choice = input("เลือกวิธีการปลูก (1-9): ")
+    job_choice = input("เลือกวิธีการปลูก (1-2-3-4-5-6-7-8-9): ")
 
     job_dict = {
         "1": "เลือกต้นพันธุ์อายุไม่เกิน 1 ปี",
@@ -53,8 +53,8 @@ def add_task():
     print("8.ให้ปุ๋ยทางใบเสริม")
     print("9.ใช้ไตรโคเดอร์มาปกป้องราก")
 
-    category_choice = input("เลือก (1-9): ")
-    category = " วิธีปลูกทุเรียนให้รอด" if category_choice == "1-2-3-4-5-6-7-8-9" else ""
+    category_choice = input("เลือก (1): ")
+    category = " วิธีปลูกทุเรียนให้รอด" if category_choice == "2" else "อื่นๆ"
 
     date_created = datetime.now().strftime("%Y-%m-%d")
 
